@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Таблица</title>
+	<style type="text/css">
+
+table{
+
+border-collapse: collapse;
+
+text-align: center; 
+
+}
+
+td{
+
+border:1px black solid; 
+
+padding:5px; 
+
+}
+
+caption{
+
+font-size: 20px; 
+
+font-weight: bold; 
+
+}
+
+</style>
+</head>
+<body>
+	<table>
+		<caption>
+			Таблица со случайными словами
+		</caption>
+		<thead>
+			<tr>
+				<td colspan="10">подсчетчик</td>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td>ожижение</td>
+				<td>противогазный</td>
+				<td>поденщина</td>
+				<td>войти</td>
+				<td>разливать</td>
+				<td>ял</td>
+				<td>околоплодник</td>
+				<td>ведерница</td>
+				<td>заматывать</td>
+				<td>расторможение</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td>френологический</td>
+				<td>масонский</td>
+				<td>миннезингер</td>
+				<td>перлон</td>
+				<td>общесоюзный</td>
+				<td>причинность</td>
+				<td>опекунский</td>
+				<td>проживание</td>
+				<td>променаж</td>
+				<td>выкос</td>
+			</tr>
+			<tr>
+				<td rowspan="3">переулочек</td>
+				<td>разомкнутый</td>
+				<td>неделимость</td>
+				<td>неосновательный</td>
+				<td>петрография</td>
+				<td>зерно</td>
+				<td>поднаниматель</td>
+				<td>сплющивать</td>
+				<td>маркиза</td>
+				<td rowspan="3">харатейный</td>
+			</tr>
+			<tr>
+				<td>перегрузочный</td>
+				<td>полушарие</td>
+				<td>многоместный</td>
+				<td>отоспаться</td>
+				<td>сливщик</td>
+				<td>обречься</td>
+				<td>малоспособный</td>
+				<td>сторожкость</td>
+			</tr>
+			<tr>
+				<td>логопатический</td>
+				<td>квадрильон</td>
+				<td>полгода</td>
+				<td>кошатина</td>
+				<td>бороздка</td>
+				<td>высокоствольный</td>
+				<td>бельфлер</td>
+				<td>боярыня</td>
+			</tr>
+			<tr>
+				<td>изничтожить</td>
+				<td>покарябать</td>
+				<td>декларационный</td>
+				<td>верблюдка</td>
+				<td>таксировать</td>
+				<td>всеведущий</td>
+				<td>ноктюрн</td>
+				<td>разбрызгаться</td>
+				<td>возносить</td>
+				<td>клюкаться</td>
+			</tr>
+			<tr>
+				<td rowspan="3">бремя</td>
+				<td>левретка</td>
+				<td>вольнодумничать</td>
+				<td>демуниципализация</td>
+				<td>постоялица</td>
+				<td>стация</td>
+				<td>забаловывать</td>
+				<td>вериги</td>
+				<td>завялить</td>
+				<td rowspan="3">срезывать</td>
+			</tr>
+			<tr>
+				<td>ницшеанец</td>
+				<td>самец</td>
+				<td>развьючивать</td>
+				<td>мохнатость</td>
+				<td>доводить</td>
+				<td>судимость</td>
+				<td>просрочить</td>
+				<td>колесничий</td>
+			</tr>
+			<tr>
+				<td>корень</td>
+				<td>регентша</td>
+				<td>морганист</td>
+				<td>предетерминизм</td>
+				<td>клубнелуковица</td>
+				<td>выкупить</td>
+				<td>пересоставить</td>
+				<td>запарник</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<form action="Nesushestvuyshiy file.php" method="POST">
+		<figcaption>Введите текст</figcaption>
+		<input type="text" name="tx">
+		<br><br>
+		<figcaption>Введите пароль</figcaption>
+		<input type="password" name="password">
+		<br><br>
+		<label><input type="checkbox" name="cb" value="ололо"> Ололо</label> 
+		<br><br>
+		<input type="file" name="file">
+		<br><br>
+		<label><input type="radio" name="rad" value="rad">тык 1</label>
+		<br>
+		<label><input type="radio" name="rad" value="rad">тык 2</label>
+		<br><br>
+		<input type="reset" name="reset">
+		<br><br>
+		<input type="submit" name="sbmt">
+		<br><br>
+		<input type="button" name="bt" value="Супер кнопка">
+		<br><br>
+		<figcaption>Почтовая строка</figcaption>
+		<input type="email" name="email"> 
+		<br><br>
+		<figcaption>Поиск</figcaption>
+		<input type="search" name="src">
+		<br><br>
+		<figcaption>Телефончик</figcaption>
+		<input type="tel" name="tel">
+		<br><br>
+		<figcaption>URL</figcaption>
+		<input type="url" name="url">
+		<br><br>
+		<figcaption>Циферки</figcaption>
+		<input type="number" name="num">
+		<br><br>
+		0<input type="range" name="range" min="0" max="1000">30
+		<br><br>
+		<textarea>
+		</textarea>
+
+
+	</form>
+</body>
+</html>
